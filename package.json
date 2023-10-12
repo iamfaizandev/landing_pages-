@@ -1,0 +1,18 @@
+{
+  "name": "header_clone",
+  "version": "1.0.0",
+  "description": "\"Header Clone\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"npm test\"",
+    "start": "parcel index.html"
+  },
+  "keywords": [
+    "\"header\""
+  ],
+  "author": "\"FZN\"",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.0"
+  }
+}

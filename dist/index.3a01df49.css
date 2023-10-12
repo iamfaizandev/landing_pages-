@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+  color: #fff;
+  margin: auto;
+  padding: auto;
+}
+
+a, ul, html {
+  scroll-behavior: smooth;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container-fluid {
+  flex-flow: row;
+  display: flex;
+}
+
+.container {
+  background-color: #2f1893;
+  width: 100vw;
+  height: 100vh;
+  padding: 5%;
+  overflow: hidden;
+}
+
+header {
+  flex-flow: row;
+  justify-content: space-around;
+  display: flex;
+}
+
+.logo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav ul {
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+nav li {
+  margin-right: 8%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+nav .purchase {
+  text-align: center;
+  background-color: #e42222;
+  border-radius: 2rem;
+  width: 8vw;
+  height: 5vh;
+  padding: 10%;
+}
+
+nav .overview {
+  opacity: .5;
+}
+
+section {
+  flex-flow: row;
+  display: flex;
+}
+
+main {
+  grid-template-columns: 5fr 5fr;
+  padding: 5%;
+  display: grid;
+}
+
+main .leftSide {
+  width: 50vw;
+  margin-left: 20%;
+}
+
+.leftSide h2 {
+  font-family: Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif;
+  font-size: 2rem;
+}
+
+.leftSide .para {
+  text-align: justify;
+  margin-top: 5%;
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.leftSide .learnMore {
+  text-align: center;
+  float: left;
+  background-color: #e42222;
+  border-radius: 2rem;
+  width: 8vw;
+  height: 5vh;
+  margin-top: 5%;
+  padding: 1%;
+}
+
+.card {
+  color: #000;
+  background-color: #fff;
+  border-radius: 2%;
+  width: 25vw;
+  height: 75vh;
+  margin-right: 3rem;
+  padding: 1%;
+}
+
+.card-title {
+  text-align: center;
+  color: #000;
+  margin-top: 4%;
+  font-family: Georgia, Times New Roman, Times, serif;
+  font-size: 1.5rem;
+}
+
+.card-body {
+  padding: 12%;
+}
+
+.card-content {
+  flex-direction: column;
+  display: flex;
+}
+
+.card-content input {
+  border: 3px solid #f5f5f5;
+  border-radius: 2rem;
+  width: 18vw;
+  margin: 4%;
+  padding: 3%;
+}
+
+.term {
+  flex-flow: row;
+  margin-top: 4%;
+  margin-bottom: 0;
+  display: flex;
+}
+
+.term label {
+  color: #000;
+}
+
+.term input:checked {
+  background-color: #7fffd4;
+}
+
+.card-btns {
+  margin-top: 13%;
+}
+
+.signInBtn {
+  background-color: #2f1893;
+  border: none;
+  border-radius: 5rem;
+  width: 19vw;
+  height: 5vh;
+  padding: 2%;
+}
+
+.loginTwitterBtn {
+  background-color: #0b96cde0;
+  border: none;
+  border-radius: 5rem;
+  width: 19vw;
+  height: 5vh;
+  padding: 2%;
+}
+
+.line {
+  text-align: center;
+  border-bottom: 1px solid gray;
+  width: 100%;
+  margin: 16px 0 20px;
+  line-height: .1em;
+}
+
+.line span {
+  color: #000;
+  background: #fff;
+  padding: 0 10px;
+}
+
+.card-footer p {
+  color: gray;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+}
+
+.card-footer a {
+  color: #0b96cde0;
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */
